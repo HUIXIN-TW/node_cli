@@ -2,6 +2,10 @@
 
 A fancy JavaScript CLI tool for millionaire game.
 
+![](answer.png)
+
+![](congrats.png)
+
 ## Installation
 
 ```bash
