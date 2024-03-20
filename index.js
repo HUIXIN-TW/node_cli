@@ -46,7 +46,7 @@ async function askName() {
 // handleAnswer function: check if the answer is correct
 async function handleAnswer(isCorrect) {
   const spinner = createSpinner("Checking answer...").start();
-  await sleep();
+  await sleep(2000);
 
   if (isCorrect) {
     spinner.success({ text: `Nice work ${playerName}. That's a legit answer` });
